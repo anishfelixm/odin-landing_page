@@ -3,3 +3,32 @@
     padding: 0px;
     margin: 0px;
 }
+
+.body {
+    display: flex;
+    font-family: 'Roboto';
+}
+
+.Header,
+.Hero
+.Footer {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.Header {
+    align-self: flex-start;
+}
+
+.Hero {
+
+}
+
+.Main-content {
+    flex: 1;
+}
+
+.Footer {
+    align-self: flex-end;
+}
