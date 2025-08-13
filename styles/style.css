@@ -4,25 +4,58 @@
     margin: 0px;
 }
 
-.body {
+body {
     display: flex;
     font-family: 'Roboto';
+    height: 100vh;
+    flex-direction: column;
 }
 
-.Header,
-.Hero
+.Hero,
+.Main-content,
+.Footer {
+    width: 100%;
+}
+
+.Hero,
 .Footer {
     background-color: #1F2937;
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.Header {
-    align-self: flex-start;
+.Hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.Hero {
+.Header,
+.hero-body {
+    width: 800px;
+}
 
+.Header {
+    display: flex;
+    align-items: center;
+    padding: 16px 0px;
+}
+
+.Header > .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+.Header .right-part {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+}
+
+.Header ul li a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .Main-content {
