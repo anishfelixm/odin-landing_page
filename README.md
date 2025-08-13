@@ -8,4 +8,4 @@ The fonts used in the project are:
 <br>
 ![Fonts](/images/landing-page-fonts.png "Fonts")
 
-The images used belong to Brendon taylor. Thank you for the images.
+The images used belong to Brandee Taylor. Thank you for the images.

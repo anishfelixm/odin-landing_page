@@ -34,8 +34,11 @@ body {
 .hero-body {
     width: 800px;
     display: flex;
-    align-items: center;
+}
+
+.Header {
     padding: 16px 0px;
+    align-items: center;
 }
 
 .Header > .logo {
@@ -55,8 +58,9 @@ body {
     color: inherit;
 }
 
-.hero-body > left-part {
-    flex: 1;
+.hero-body {
+    gap: 16px;
+    padding: 48px 0px;
 }
 
 .main-text {
@@ -65,8 +69,31 @@ body {
     font-weight: 900;
 }
 
+.hero-body > .left-part {
+    flex: 1;
+    padding: 8px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.signup {
+    padding: 8px 24px;
+    background-color: #3882F6;
+    color: inherit;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
 .hero-body > .right-part {
     flex: 1;
+}
+
+.hero-body > img {
+    min-width: 400px;
+    height: auto;
 }
 
 .Main-content {
