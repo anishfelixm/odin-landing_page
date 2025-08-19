@@ -11,6 +11,8 @@ body {
     flex-direction: column;
 }
 
+/* Bigger picture CSS */
+
 .Hero,
 .Main-content,
 .Footer {
@@ -30,11 +32,15 @@ body {
     align-items: center;
 }
 
+/* Hero block part CSS */
+
 .Header,
 .hero-body {
-    width: 800px;
+    width: 1000px;
     display: flex;
 }
+
+/* Header block CSS */
 
 .Header {
     padding: 16px 0px;
@@ -57,6 +63,8 @@ body {
     text-decoration: none;
     color: inherit;
 }
+
+/* Hero content block CSS */
 
 .hero-body {
     gap: 16px;
@@ -96,9 +104,64 @@ body {
     height: auto;
 }
 
+/* Main-content block CSS */
+
 .Main-content {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.first-content,
+.quote-container,
+.blue-box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 0px 32px 0px;
+}
+
+.first-content,
+.quote-container {
+    flex: 1;
+}
+
+/* First part of main content block CSS */
+
+.information-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 16px 0px;
+}
+
+.gallery {
+    display: flex;
+    width: 1000px;
+    gap: 32px;
+    justify-content: center;
+}
+
+.gallery-box {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    text-align: center;
+}
+
+.image {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+}
+
+
+/* Footer block CSS */
 
 .Footer {
     align-self: flex-end;
