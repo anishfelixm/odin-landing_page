@@ -160,6 +160,30 @@ body {
     border-radius: 12px;
 }
 
+/* Second part of main content block CSS */
+.quote-block {
+    background-color: #E5E7EB;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container {
+    width: 40%;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: 900;
+    font-style: normal;
+}
+
 
 /* Footer block CSS */
 
