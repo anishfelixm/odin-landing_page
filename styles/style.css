@@ -124,7 +124,7 @@ body {
 }
 
 .first-content,
-.quote-container {
+.quote-block {
     flex: 1;
 }
 
@@ -169,19 +169,21 @@ body {
 }
 
 .quote-container {
-    width: 40%;
+    width: 55%;
+    gap: 0.5em;
+    padding: 5em 0;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
+    font-weight: lighter;
     color: #1F2937;
 }
 
-.author {
+.quote-author {
     align-self: flex-end;
     font-weight: 900;
-    font-style: normal;
 }
 
 
