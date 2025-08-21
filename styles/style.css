@@ -90,9 +90,10 @@ body {
 .signup {
     padding: 0.5em 1.5em;
     background-color: #3882F6;
-    color: inherit;
+    color: #F9FAF8;
     font-weight: bold;
     border-radius: 12px;
+    border: none;
 }
 
 .hero-body > .right-part {
@@ -119,7 +120,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1em 0 3em 0;
+    padding: 2em 0 3em 0;
     width: 70%
 }
 
@@ -186,6 +187,28 @@ body {
     font-weight: 900;
 }
 
+/* Third part of main content block CSS */
+.blue-box {
+    display: flex;
+    gap: 10em;
+    background-color: #3882F6;
+    width: 70%;
+    padding: 2em 4em;
+    border-radius: 12px;
+    color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue-box > .left-part > .title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.blue-box > .signup {
+    box-shadow: #F9FAF8;
+    border: 2px solid #E5E7EB;
+}
 
 /* Footer block CSS */
 
