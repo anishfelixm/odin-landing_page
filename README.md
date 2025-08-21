@@ -2,6 +2,8 @@
 
 I wilL be building landing-page in this project. I will be using the knowledge of CSS Flexbox to build this page. The content is available at [odin project](https://www.theodinproject.com/lessons/foundations-introduction-to-flexbox). 
 
+The website is live [here](https://anishfelixm.github.io/odin-landing_page/).
+
 The web page design reference is the :
 <br>
 

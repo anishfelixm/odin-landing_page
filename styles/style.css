@@ -170,7 +170,7 @@ body {
 }
 
 .quote-container {
-    width: 55%;
+    width: 40%;
     gap: 0.5em;
     padding: 5em 0;
 }
@@ -192,7 +192,7 @@ body {
     display: flex;
     gap: 10em;
     background-color: #3882F6;
-    width: 70%;
+    width: 80%;
     padding: 2em 4em;
     border-radius: 12px;
     color: #E5E7EB;
